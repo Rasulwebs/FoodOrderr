@@ -1,0 +1,215 @@
+.OrdersTitle {
+  color: #ffffff;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+
+
+/* ordersCard */
+.orderFoodImg{
+  width: 50px;
+}
+.orderTitle{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.orderPriceText{
+  font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 140%;
+color: #ABBBC2;
+padding-top: 4px;
+}
+.ordersInfo{
+  width: 70%;
+}
+.orderQtywrapp{
+  width: 30%;
+}
+.qtySize, .priceSize{
+width: 50%;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+
+color: #FFFFFF;
+}
+.qtySize{
+  text-align: center;
+  background: #2D303E;
+  padding: 14px 14px 12px;
+border: 1px solid #393C49;
+border-radius: 8px;
+}
+.priceSize{
+  text-align: right;
+}
+.orderInputWrapp{
+  width: 85%;
+}
+.orderBynWrapp{
+  width: 15%;
+  display: flex;
+  justify-content: end;
+}
+.orderDescInput{
+  background: #2D303E;
+  padding: 14px 96px 14px 14px;
+  border: 1px solid #393C49;
+  color: #fff;
+border-radius: 8px;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+outline: none;
+}
+.orderDescInput:focus{
+  border: 1px solid #393C49;
+  outline: none;
+}
+.deleteCardBtn{
+  border: 1px solid #FF7CA3;
+border-radius: 8px;
+padding: 14px;
+font-size: 20px;
+color: #FF7CA3;
+}
+.deleteCardBtn:hover{
+  background-color: #FF7CA3 !important;
+  color: #fff !important;
+}
+.deleteCardBtn:active{
+  border: 1px solid #FF7CA3 !important;
+  color: #FF7CA3 !important;
+  background-color: transparent !important;
+}
+.orderCardWrapp, .toGoPage, .deliveryPage{
+  height: 55vh;
+  overflow-y: scroll;
+}
+
+.ordersLinkTitle:hover {
+  color: #ea7c69;
+  text-decoration: none;
+}
+
+.activeOrdersLinks:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.itemTitleWrapp {
+  width: 70%;
+}
+.qtyPriceTitleWrapp {
+  width: 30%;
+}
+.ordersTitles {
+  color: #fff;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+.qtyTitle {
+  width: 50%;
+  text-align: center;
+}
+.priceTitle {
+  width: 50%;
+  text-align: right;
+}
+
+.ordersAllInfo {
+  border-top: 1px solid rgba(255, 255, 255, 0.235);
+}
+
+.discountTitle,
+.totaltTitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #abbbc2;
+}
+.totalPriceTitle,
+.discountPriceTitle {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.navigateToPayPage {
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3) !important;
+  border-radius: 8px;
+  padding: 14px;
+  color: #fff;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+}
+.navigateToPayPage:hover {
+  color: #fff;
+  background: #fea191;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3) !important;
+}
+.navigateToPayPage:active {
+  color: #ea7c69 !important;
+}
+.navLinkk{
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 140% !important;
+  color: #ea7c69 !important;
+  border: 1px solid #393c49;
+  border-radius: 8px !important;
+  padding: 7px 12px !important;
+  margin-right: 10px;
+  text-transform: capitalize;
+
+}
+.navLinkk:hover{
+  text-decoration: none;
+  
+  font-weight: 600 !important;
+  color: #ea7c69;
+  margin-right: 10px !important;
+}
+.navLinkk.active{
+  font-family: "Barlow";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 140% !important;
+  color: #ffffff !important;
+  background-color: #ea7c69 !important;
+  border: 1px solid transparent !important;
+  border-radius: 8px !important;
+  padding: 7px 12px !important;
+  margin-right: 10px;
+}
+.tabWrapp{
+  height:45vh ;
+  overflow-y: scroll;
+}
