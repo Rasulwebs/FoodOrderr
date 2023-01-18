@@ -4,7 +4,7 @@ const Notif = () => {
     return (
         <div>
             <h1>Bildirishnoma</h1>
-            <SignUp/>
+            {/* <SignUp/> */}
         </div>
     );
 };

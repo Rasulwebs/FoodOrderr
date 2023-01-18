@@ -4,7 +4,7 @@ const News = () => {
   return (
     <div>
       <h1>News</h1>
-      <Login />
+      {/* <Login /> */}
     </div>
   );
 };
